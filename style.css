@@ -88,6 +88,8 @@ nav{
 
 
 .card-1{
+  /* background-image: url(img/1.webp);
+  background-size: cover; */
   position: relative;
   width: 440px;
   height: 642px;
@@ -96,6 +98,18 @@ nav{
 
 .card{
   width: 100%;
+}
+
+.replace{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.replace:hover{
+  opacity: 1;
 }
 
 .discount{
@@ -144,6 +158,11 @@ nav{
   line-height: 50px;
   background-color: white;
   font-size: 30px;
+}
+
+.heart:hover{
+  color: red;
+  font-size: 35px;
 }
 
 
